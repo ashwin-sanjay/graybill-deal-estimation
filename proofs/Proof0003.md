@@ -329,7 +329,7 @@ then transfers the same enclosure to the other wall.
 
 The preceding integrable envelope can be sharpened to a simple pointwise
 inequality.  This sharpening is useful independently of the numerical wall
-replay, so the complete argument follows.
+replay, so we give the complete argument.
 
 **Pointwise wall-envelope theorem.**  At every interior Dirichlet point and
 for every \(\eta>0\),
