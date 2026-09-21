@@ -1,4 +1,6 @@
-# Graybill–Deal Results and Proof Evidence
+# Graybill–Deal Common-Mean Estimation
+
+## Admissible Strict Improvements, Exact Uniform-Gain Classification, Sharp Oracle Minimax Limits, and Exact Risk and Inference
 
 ![Lean 4.31.0](https://img.shields.io/badge/Lean-4.31.0-345b80)
 
