@@ -1,0 +1,4 @@
+PASS six-jet identity
+PASS eight-node expansion
+PASS swap parity
+PASS balanced four-jet rank obstruction (3 < 4)

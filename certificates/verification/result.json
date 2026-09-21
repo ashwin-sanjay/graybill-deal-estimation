@@ -1,0 +1,228 @@
+{
+  "schemaVersion": 1,
+  "status": "passed",
+  "python": "3.11.15",
+  "dependencies": {
+    "numpy": "2.4.6",
+    "python-flint": "0.8.0",
+    "sympy": "1.14.0",
+    "jsonschema": "4.25.1"
+  },
+  "driverSha256": "7cbd1665f57fb34f20fae82f561fb842c8504729967e6ff88cb4602fb645ff49",
+  "scope": "Fresh finite/symbolic computations on current sources and authenticated retained directed enclosures. No directed integral regeneration or Lean execution.",
+  "inputs": {
+    "certificates/Certificate0001/Script0001.py": "93a69c1fe790124a01c92a95c655961390d46036eda5fe3ab7904b3e70cbb954",
+    "certificates/Certificate0002/Data0001.json": "ad95509dcecb2348a5c23f7da61c4a677910a149df3d81855c80de9b81526ad3",
+    "certificates/Certificate0002/Schema0001.json": "d4f019adef4da3c5f60d817c8b4032c733dbb978fc589ba4832dbfe09bed5319",
+    "certificates/Certificate0002/Script0001.py": "3f7ee97569934b7c3fcfdb3eed93d3316f82dc9478368b456ee65e59b9b0d010",
+    "certificates/Certificate0002/Script0002.py": "dfe758c0fbf01f54729c5369065364a759699475ae8ab1d58bac51a36b686083",
+    "certificates/Certificate0002/Script0003.py": "882fbfe18990c418270553b2536c5dc9272b83207c5972abd1bc2af780b6d5b2",
+    "certificates/Certificate0002/Script0004.py": "1bf8498028781b321ae4f9c54808fd6bb94cc9c389c33cf32c444104566c1ec0",
+    "certificates/Certificate0003/Data0001.json": "f490faa9cb7d634e96f49c8ca2c1ecfd9ce8f7ba0224dcf0a0a744f4721acf1d",
+    "certificates/Certificate0003/Data0002.json": "41b121b64c48c1dfe6d7a04e2d02bde6202be53a3128a600ee8a80f2713a16ad",
+    "certificates/Certificate0003/Data0003.json": "0f17841fd011e85a3076c96058c95e8a4e46be0981c362b2917f4b595745e6f0",
+    "certificates/Certificate0003/Data0004.json": "e4b40d37248153a7af8341e8752c7ff8de67f9156a47cfeecec525db4daddef8",
+    "certificates/Certificate0003/Data0005.json": "a55bc741a6251ad450fd46f003501c58c9daaf0ba0714e0d7fdd3825f1df3411",
+    "certificates/Certificate0003/Data0006.json": "7067c008064fe4816eb537363b6e828505260e1717999d8d35946759ab054fef",
+    "certificates/Certificate0003/Data0007.json": "edd983858a9098a8382cd9de879d5abb7699ac4b988d83a7140c98005f836c08",
+    "certificates/Certificate0003/Data0008.json": "b8b34029f6c2d8ddfe25660adfde76d9cc54261c97700623cc12065c24cfc789",
+    "certificates/Certificate0003/Data0009.json": "c72cb97500a263663a97d3dcef59b8cc79ea07927b009b0d5713abbc62cb710b",
+    "certificates/Certificate0003/Inputs.json": "9a9a1c24ba4922933b453b0a0ff71f7d3be6f567ffc70a4cc949f6bc79435b3f",
+    "certificates/Certificate0003/Script0001.py": "8ff2f24e2fe50d9f12644782ca69f762e631c6f8333fe4ce32d608abc65f24a1",
+    "certificates/Certificate0003/Script0002.py": "5a9b9c83b96a4758118b1db840c765b871b1ac92052e26d088bb7389f22adf6d",
+    "certificates/Certificate0003/Script0003.py": "5141ba636eee98aa0b7b97dd91144a6e8b018439dbf8c5b95b0b9cf0b5ab7d9f",
+    "certificates/Certificate0003/Script0004.py": "ca5586adb47e5bbc4e9312c25665f9f6431d6e332a539b0de316fab947d4d8db",
+    "certificates/Certificate0003/Script0005.py": "98b00f90df55267207375798d11cedf56089cca4fa1b9f039488d07e3eee2350",
+    "certificates/Certificate0003/Script0006.py": "bab38e51987d27df9e86d7160217e0529dcc9a72136a3826435faa153c973fd3",
+    "certificates/Certificate0003/Script0007.py": "dfc4ece5946d890cdc5655f64e8e962cffc2287fb476f86ae4f513b615766dbd",
+    "certificates/Certificate0003/Script0008.py": "4afd36e72f51c341a603608335142782bc3809ff2226d48854852e5ef63b7a23",
+    "certificates/Certificate0003/Script0009.py": "542baa0d91399b3c70e513443938d390cd8467d60a08f72328431de454427dde",
+    "certificates/Certificate0003/Script0010.py": "416987a3b83c8b3f7a418d9de928bf650bf2586d5a6b7348d3c8b782a66bee09",
+    "certificates/Certificate0003/Script0011.py": "04e854789d2a9cab69d92c35599a6ab752f67495bbf1e236f94a4c1fa2c5fe06",
+    "certificates/Certificate0003/Script0012.py": "3bfdd29a29ec8dd2e5b0248c07ae85e911f470ae89caf5d8644272dc009f3914",
+    "certificates/README.md": "17252bea4b56afdc3234daab326a37d3615932025fe8907fb2775ceab3e38000",
+    "certificates/requirements.txt": "3e064623e5675e0ea6663605b171b337195760bd50700d76b95c917e8a326f5d",
+    "proofs/Proof0003.md": "e9a2709a1ce6a7a8842a3aefaa5e3bd79cc9e19d5e9b962e0ee2406f5dafdc15"
+  },
+  "checks": [
+    {
+      "name": "engine-selftest",
+      "command": [
+        "python",
+        "-B",
+        "certificates/Certificate0003/Script0002.py",
+        "--selftest"
+      ],
+      "workingDirectory": ".",
+      "exitCode": 0,
+      "elapsedSeconds": 0.34399999999732245,
+      "log": "logs/engine-selftest.log",
+      "logSha256": "ad896f0b3679757095e7315fde4b51bae5d361fabeac16b8388c9df0bfbd097d",
+      "scope": "Interval arithmetic engine selftest."
+    },
+    {
+      "name": "charge-normalization",
+      "command": [
+        "python",
+        "-B",
+        "certificates/Certificate0003/Script0003.py"
+      ],
+      "workingDirectory": ".",
+      "exitCode": 0,
+      "elapsedSeconds": 0.28100000000267755,
+      "log": "logs/charge-normalization.log",
+      "logSha256": "4de6c4fcdbbf192ff353966f617777d5705d985ced4587d34f845176dcaa0c7a",
+      "scope": "Fresh finite normalization of five retained directed charge columns."
+    },
+    {
+      "name": "positive-simplex",
+      "command": [
+        "python",
+        "-B",
+        "certificates/Certificate0003/Script0004.py",
+        "certificates/Certificate0003/Data0006.json"
+      ],
+      "workingDirectory": ".",
+      "exitCode": 0,
+      "elapsedSeconds": 0.10899999999674037,
+      "log": "logs/positive-simplex.log",
+      "logSha256": "bcc6feffcc94bddfeb8557119920aa0901fc13d0320f44961656f4cac04effac",
+      "scope": "Exact rational positive simplex conditional on supplied charge boxes."
+    },
+    {
+      "name": "continuum-interpolation",
+      "command": [
+        "python",
+        "-B",
+        "certificates/Certificate0003/Script0006.py",
+        "certificates/Certificate0003/Data0007.json",
+        "--output",
+        "certificates/Certificate0003/Data0008.json"
+      ],
+      "workingDirectory": ".",
+      "exitCode": 0,
+      "elapsedSeconds": 47.812999999994645,
+      "log": "logs/continuum-interpolation.log",
+      "logSha256": "e5f87a60a92a0335e7010edb391ec9283e0d5442c204c4ef3dc37bd8bb5706c7",
+      "scope": "Fresh interpolation from the retained 392 directed node enclosures."
+    },
+    {
+      "name": "wall-local",
+      "command": [
+        "python",
+        "-B",
+        "certificates/Certificate0003/Script0010.py",
+        "certificates/Certificate0003/Data0009.json"
+      ],
+      "workingDirectory": ".",
+      "exitCode": 0,
+      "elapsedSeconds": 0.46800000000803266,
+      "log": "logs/wall-local.log",
+      "logSha256": "f1711e488a7d1b22cabbba868438922b045a8f913941cc50d309421bd361f849",
+      "scope": "Finite 225-cell wall cover and positive lower bound; intervals retained."
+    },
+    {
+      "name": "wall-separate",
+      "command": [
+        "python",
+        "-B",
+        "certificates/Certificate0003/Script0011.py",
+        "certificates/Certificate0003/Data0009.json"
+      ],
+      "workingDirectory": ".",
+      "exitCode": 0,
+      "elapsedSeconds": 0.39100000000325963,
+      "log": "logs/wall-separate.log",
+      "logSha256": "590491199085fa5aa624e16347b1ed9075b888e8b0154009866038f5fc700d2a",
+      "scope": "Separate finite wall checker without producer imports; intervals retained."
+    },
+    {
+      "name": "eight-tent-symbolic",
+      "command": [
+        "python",
+        "-B",
+        "certificates/Certificate0001/Script0001.py"
+      ],
+      "workingDirectory": ".",
+      "exitCode": 0,
+      "elapsedSeconds": 1.312000000005355,
+      "log": "logs/eight-tent-symbolic.log",
+      "logSha256": "c1c9b54421d3f5d88d6a2e0e2d07f1c8aaacab211909cf372cda6b9fd32e45ac",
+      "scope": "Exact symbolic identities, not physical integral generation."
+    },
+    {
+      "name": "two-stage-generation",
+      "command": [
+        "python",
+        "-B",
+        "certificates/Certificate0002/Script0001.py",
+        "--write"
+      ],
+      "workingDirectory": ".",
+      "exitCode": 0,
+      "elapsedSeconds": 77.125,
+      "log": "logs/two-stage-generation.log",
+      "logSha256": "d1cfb84c9e8ee0599aaee279e4da808f4515f6b46b2bd4456ff0232309e8894c",
+      "scope": "Fresh exact rational artifact generation under the current Python environment."
+    },
+    {
+      "name": "two-stage-exact-replay",
+      "command": [
+        "python",
+        "-B",
+        "certificates/Certificate0002/Script0001.py",
+        "--check"
+      ],
+      "workingDirectory": ".",
+      "exitCode": 0,
+      "elapsedSeconds": 76.15600000000268,
+      "log": "logs/two-stage-exact-replay.log",
+      "logSha256": "04f5aec86b5dc087138a26ae9ee64a5d24ad276543de7f0f5a91ca10bf7cd09c",
+      "scope": "Exact complete artifact replay including current source hashes."
+    },
+    {
+      "name": "two-stage-auxiliary",
+      "command": [
+        "python",
+        "-B",
+        "-m",
+        "unittest",
+        "-v",
+        "Script0004.py"
+      ],
+      "workingDirectory": "certificates/Certificate0002",
+      "exitCode": 0,
+      "elapsedSeconds": 0.3600000000005821,
+      "log": "logs/two-stage-auxiliary.log",
+      "logSha256": "914e8b78ad0450886be267750dc924ca5a085f390486dbfeb0be8b2429fa263a",
+      "scope": "Four auxiliary source-identity, support, packet-floor and schema checks."
+    }
+  ],
+  "derivedPayloadComparisons": [
+    {
+      "kind": "rational",
+      "mathematicalPayloadExact": true,
+      "generatedPath": "certificates/Certificate0002/Data0001.json",
+      "generatedSha256": "ad95509dcecb2348a5c23f7da61c4a677910a149df3d81855c80de9b81526ad3",
+      "excludedMetadata": "source manifest, Python environment and schema identifier"
+    },
+    {
+      "kind": "normalization",
+      "mathematicalPayloadExact": true,
+      "generatedPath": "certificates/Certificate0003/Data0006.json",
+      "generatedSha256": "7067c008064fe4816eb537363b6e828505260e1717999d8d35946759ab054fef",
+      "excludedMetadata": "current source provenance and format identifier"
+    },
+    {
+      "kind": "interpolation",
+      "mathematicalPayloadExact": true,
+      "generatedPath": "certificates/Certificate0003/Data0008.json",
+      "generatedSha256": "b8b34029f6c2d8ddfe25660adfde76d9cc54261c97700623cc12065c24cfc789",
+      "excludedMetadata": "current checker/input provenance and format identifier"
+    }
+  ],
+  "negativeControls": {
+    "modifiedPayloadRejected": true,
+    "falseCurrentProducerClaimRejected": true
+  }
+}

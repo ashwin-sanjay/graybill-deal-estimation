@@ -1,0 +1,10 @@
+# Graybill–Deal release licenses
+
+Licenses apply by material type, subject to existing file-level notices and the third-party exceptions below. They are not an interchangeable choice of licenses for each file.
+
+- Original software, Lean source, and executable tooling are licensed under the MIT License. The full terms are incorporated in [LICENSES/MIT.txt](LICENSES/MIT.txt). Copyright (c) 2026 Ashwin Sanjay; existing file-level copyright and author records remain in place.
+- Original mathematical exposition, standalone written proofs, and original documentation are licensed under Creative Commons Attribution 4.0 International (CC BY 4.0). The full terms are incorporated in [LICENSES/CC-BY-4.0.txt](LICENSES/CC-BY-4.0.txt). For attribution of these original works, use “Ashwin Sanjay,” the sole research author identified in the retained [provenance](docs/Provenance.md). CC BY 4.0 does not apply to software or Lean code.
+
+Pre-existing licenses, copyright notices, and author attributions remain applicable. Third-party code, quotations, external records, and other third-party material retain their own terms and are excluded from the original-work grants above. No ownership claim is made over raw facts. [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) identifies retained dependency terms and the Apache-2.0 exception for the Lean-derived replay helper.
+
+Canonical license sources: [MIT License (Open Source Initiative)](https://opensource.org/license/mit) and [CC BY 4.0 legal code (Creative Commons)](https://creativecommons.org/licenses/by/4.0/legalcode.txt).

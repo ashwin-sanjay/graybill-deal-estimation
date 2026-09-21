@@ -1,0 +1,4 @@
+numpy==2.4.6
+python-flint==0.8.0
+sympy==1.14.0
+jsonschema==4.25.1

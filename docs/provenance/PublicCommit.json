@@ -1,0 +1,22 @@
+{
+  "sha": "be821708c078f22606cd37bd51a9244940099724",
+  "author": {
+    "name": "dalematthews1",
+    "email": "168618842+dalematthews1@users.noreply.github.com",
+    "date": "2026-07-24T19:25:41Z"
+  },
+  "committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-07-24T19:25:41Z"
+  },
+  "message": "Init",
+  "tree_sha": "3f7aba1a30499b652176ab7bee1080d19fbe032c",
+  "verification": {
+    "verified": true,
+    "reason": "valid",
+    "verified_at": "2026-07-24T19:25:47Z"
+  },
+  "api_url": "https://api.github.com/repos/dalematthews/graybill-deal-inadmissibility/commits/be821708c078f22606cd37bd51a9244940099724",
+  "html_url": "https://github.com/dalematthews/graybill-deal-inadmissibility/commit/be821708c078f22606cd37bd51a9244940099724"
+}

@@ -1,0 +1,9 @@
+test_constants_and_support_separation (Script0004.ExactCertificateTests.test_constants_and_support_separation) ... ok
+test_packet_floor_is_strictly_above_claimed_floor (Script0004.ExactCertificateTests.test_packet_floor_is_strictly_above_claimed_floor) ... ok
+test_preserved_certificate_hashes (Script0004.ExactCertificateTests.test_preserved_certificate_hashes) ... ok
+test_retained_artifact_schema_and_source_manifest (Script0004.ExactCertificateTests.test_retained_artifact_schema_and_source_manifest) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.008s
+
+OK

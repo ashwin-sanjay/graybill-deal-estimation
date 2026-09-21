@@ -1,0 +1,206 @@
+{
+  "format": "certificate0003-continuum-bernstein-certificate-v1",
+  "subdivision_depth": 8,
+  "blocks": [
+    {
+      "block": 0,
+      "polynomial_lower": "0.0010009372831667885",
+      "remainder": "11/134217728",
+      "certified_lower": "0.0010008553267802222",
+      "maximum_node_width": "4.6587888960676616e-08"
+    },
+    {
+      "block": 1,
+      "polynomial_lower": "0.0009283774004459632",
+      "remainder": "11/134217728",
+      "certified_lower": "0.0009282954440593969",
+      "maximum_node_width": "4.640037110548341e-08"
+    },
+    {
+      "block": 2,
+      "polynomial_lower": "0.000817094706902485",
+      "remainder": "11/134217728",
+      "certified_lower": "0.0008170127505159187",
+      "maximum_node_width": "4.61855500669215e-08"
+    },
+    {
+      "block": 3,
+      "polynomial_lower": "0.000679837451881862",
+      "remainder": "11/134217728",
+      "certified_lower": "0.0006797554954952957",
+      "maximum_node_width": "4.5948657704858106e-08"
+    },
+    {
+      "block": 4,
+      "polynomial_lower": "0.0005313879626783814",
+      "remainder": "11/134217728",
+      "certified_lower": "0.0005313060062918151",
+      "maximum_node_width": "4.5695770723862446e-08"
+    },
+    {
+      "block": 5,
+      "polynomial_lower": "0.0003862985775717106",
+      "remainder": "11/134217728",
+      "certified_lower": "0.0003862166211851444",
+      "maximum_node_width": "4.543293804788306e-08"
+    },
+    {
+      "block": 6,
+      "polynomial_lower": "0.0002568851117815323",
+      "remainder": "11/134217728",
+      "certified_lower": "0.0002568031553949661",
+      "maximum_node_width": "4.5165399182472456e-08"
+    },
+    {
+      "block": 7,
+      "polynomial_lower": "0.00015181948353864896",
+      "remainder": "11/134217728",
+      "certified_lower": "0.00015173752715208277",
+      "maximum_node_width": "4.4898695225593054e-08"
+    },
+    {
+      "block": 8,
+      "polynomial_lower": "7.549805414710412e-05",
+      "remainder": "11/134217728",
+      "certified_lower": "7.541609776053794e-05",
+      "maximum_node_width": "4.4638393066100124e-08"
+    },
+    {
+      "block": 9,
+      "polynomial_lower": "2.8180625487094615e-05",
+      "remainder": "11/134217728",
+      "certified_lower": "2.809866910052845e-05",
+      "maximum_node_width": "4.438916526518688e-08"
+    },
+    {
+      "block": 10,
+      "polynomial_lower": "6.743703674785456e-06",
+      "remainder": "11/134217728",
+      "certified_lower": "6.661747288219293e-06",
+      "maximum_node_width": "4.415493920662824e-08"
+    },
+    {
+      "block": 11,
+      "polynomial_lower": "4.105505093557092e-06",
+      "remainder": "11/134217728",
+      "certified_lower": "4.023548706990929e-06",
+      "maximum_node_width": "4.393873775626652e-08"
+    },
+    {
+      "block": 12,
+      "polynomial_lower": "5.801395077263195e-06",
+      "remainder": "11/134217728",
+      "certified_lower": "5.719438690697032e-06",
+      "maximum_node_width": "4.374263955791719e-08"
+    },
+    {
+      "block": 13,
+      "polynomial_lower": "1.89261485854504e-05",
+      "remainder": "11/134217728",
+      "certified_lower": "1.8844192198884234e-05",
+      "maximum_node_width": "4.356770526719141e-08"
+    },
+    {
+      "block": 14,
+      "polynomial_lower": "3.9743558489546367e-05",
+      "remainder": "11/134217728",
+      "certified_lower": "3.96616021029802e-05",
+      "maximum_node_width": "4.341414995337185e-08"
+    },
+    {
+      "block": 15,
+      "polynomial_lower": "6.274812546152638e-05",
+      "remainder": "11/134217728",
+      "certified_lower": "6.266616907496021e-05",
+      "maximum_node_width": "4.3281364674844515e-08"
+    },
+    {
+      "block": 16,
+      "polynomial_lower": "8.377989033385474e-05",
+      "remainder": "11/134217728",
+      "certified_lower": "8.369793394728856e-05",
+      "maximum_node_width": "4.3168140605713166e-08"
+    },
+    {
+      "block": 17,
+      "polynomial_lower": "0.00010017579392017297",
+      "remainder": "11/134217728",
+      "certified_lower": "0.00010009383753360679",
+      "maximum_node_width": "4.307290973682755e-08"
+    },
+    {
+      "block": 18,
+      "polynomial_lower": "0.00011066448784275516",
+      "remainder": "11/134217728",
+      "certified_lower": "0.00011058253145618899",
+      "maximum_node_width": "4.2993768309082005e-08"
+    },
+    {
+      "block": 19,
+      "polynomial_lower": "0.00011410885042353906",
+      "remainder": "11/134217728",
+      "certified_lower": "0.00011402689403697288",
+      "maximum_node_width": "4.292874610192679e-08"
+    },
+    {
+      "block": 20,
+      "polynomial_lower": "0.0001087852736198503",
+      "remainder": "11/134217728",
+      "certified_lower": "0.00010870331723328412",
+      "maximum_node_width": "4.2875867747087996e-08"
+    },
+    {
+      "block": 21,
+      "polynomial_lower": "0.00010037432989274487",
+      "remainder": "11/134217728",
+      "certified_lower": "0.0001002923735061787",
+      "maximum_node_width": "4.28332490041755e-08"
+    },
+    {
+      "block": 22,
+      "polynomial_lower": "9.008509238235872e-05",
+      "remainder": "11/134217728",
+      "certified_lower": "9.000313599579255e-05",
+      "maximum_node_width": "4.279917368755115e-08"
+    },
+    {
+      "block": 23,
+      "polynomial_lower": "7.89592684174506e-05",
+      "remainder": "11/134217728",
+      "certified_lower": "7.887731203088442e-05",
+      "maximum_node_width": "4.277213418151383e-08"
+    },
+    {
+      "block": 24,
+      "polynomial_lower": "6.781169962485508e-05",
+      "remainder": "11/134217728",
+      "certified_lower": "6.772974323828891e-05",
+      "maximum_node_width": "4.2750806333511065e-08"
+    },
+    {
+      "block": 25,
+      "polynomial_lower": "5.7221088535290224e-05",
+      "remainder": "11/134217728",
+      "certified_lower": "5.7139132148724055e-05",
+      "maximum_node_width": "4.27340578590369e-08"
+    },
+    {
+      "block": 26,
+      "polynomial_lower": "4.755264837614025e-05",
+      "remainder": "11/134217728",
+      "certified_lower": "4.747069198957408e-05",
+      "maximum_node_width": "4.272097857223778e-08"
+    },
+    {
+      "block": 27,
+      "polynomial_lower": "3.8996974157546083e-05",
+      "remainder": "11/134217728",
+      "certified_lower": "3.8915017770979915e-05",
+      "maximum_node_width": "4.271077594587602e-08"
+    }
+  ],
+  "global_certified_lower": "4.023548706990929e-06",
+  "node_file_sha256": "edd983858a9098a8382cd9de879d5abb7699ac4b988d83a7140c98005f836c08",
+  "checker_sha256": "bab38e51987d27df9e86d7160217e0529dcc9a72136a3826435faa153c973fd3",
+  "inputScope": "Finite interpolation from supplied authenticated node enclosures."
+}

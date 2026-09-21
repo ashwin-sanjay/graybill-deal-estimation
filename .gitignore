@@ -1,0 +1,6 @@
+/.lake/
+/.build/
+/docs/dag/
+__pycache__/
+*.pyc
+.DS_Store

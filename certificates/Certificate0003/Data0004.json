@@ -1,0 +1,72 @@
+{
+  "balls": {
+    "charge_F:1": {
+      "lower": "-0.004581337944726556",
+      "upper": "-0.004581337829944774",
+      "width": "1.1478178216922652e-10"
+    },
+    "charge_F:3": {
+      "lower": "-0.0005424725641482813",
+      "upper": "-0.0005424725496815328",
+      "width": "1.4466748437212684e-11"
+    },
+    "charge_minus:1": {
+      "lower": "0.0011291425253618812",
+      "upper": "0.0011291426801672477",
+      "width": "1.5480536644241205e-10"
+    },
+    "charge_minus:3": {
+      "lower": "0.0001383866284266992",
+      "upper": "0.00013838664713832318",
+      "width": "1.8711623992872378e-11"
+    }
+  },
+  "eta": "18",
+  "grid": {
+    "a_indices": [
+      -512,
+      128
+    ],
+    "b_indices": [
+      -192,
+      192
+    ],
+    "inner_indices": [
+      -192,
+      192
+    ],
+    "inner_step": "1/8",
+    "inner_strip": "3/4",
+    "outer_axis_strip": "1/5",
+    "outer_mixed_strip": "1/10",
+    "outer_step": "1/32"
+  },
+  "ledger": {
+    "charge_F:1": {
+      "lattice_tail": 5.7336173364713354e-11,
+      "poisson": 4.9102752695314457e-14,
+      "total_external_error": 5.7385276117408674e-11
+    },
+    "charge_F:3": {
+      "lattice_tail": 6.923209385513446e-12,
+      "poisson": 3.092938939939225e-13,
+      "total_external_error": 7.23250327950737e-12
+    },
+    "charge_minus:1": {
+      "lattice_tail": 7.739974268878531e-11,
+      "poisson": 1.5476964709551235e-15,
+      "total_external_error": 7.740129038525629e-11
+    },
+    "charge_minus:3": {
+      "lattice_tail": 9.345838649028286e-12,
+      "poisson": 9.74880311074781e-15,
+      "total_external_error": 9.355587452139035e-12
+    }
+  },
+  "seconds": 136.4535629749298,
+  "retainedEnclosure": {
+    "kind": "retained-directed-enclosure",
+    "input": "Data0004.json",
+    "scope": "Numerical enclosure payload retained exactly; current producers were not run to regenerate these intervals. Original source bindings and payload equivalence were checked during packaging."
+  }
+}

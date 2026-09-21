@@ -1,0 +1,72 @@
+{
+  "balls": {
+    "charge_F:1": {
+      "lower": "0.002556082803293176",
+      "upper": "0.0025560828061652603",
+      "width": "2.872084514660145e-12"
+    },
+    "charge_F:3": {
+      "lower": "0.0002166741067611333",
+      "upper": "0.00021667410712452367",
+      "width": "3.6339036163859917e-13"
+    },
+    "charge_minus:1": {
+      "lower": "-0.0006612119819527633",
+      "upper": "-0.0006612119575075025",
+      "width": "2.44452608112386e-11"
+    },
+    "charge_minus:3": {
+      "lower": "-5.6979141217905294e-05",
+      "upper": "-5.6979138262934526e-05",
+      "width": "2.954970767859652e-12"
+    }
+  },
+  "eta": "2",
+  "grid": {
+    "a_indices": [
+      -512,
+      128
+    ],
+    "b_indices": [
+      -192,
+      192
+    ],
+    "inner_indices": [
+      -192,
+      192
+    ],
+    "inner_step": "1/8",
+    "inner_strip": "3/4",
+    "outer_axis_strip": "1/5",
+    "outer_mixed_strip": "1/10",
+    "outer_step": "1/32"
+  },
+  "ledger": {
+    "charge_F:1": {
+      "lattice_tail": 1.4296285819336196e-12,
+      "poisson": 1.3907834909044892e-15,
+      "total_external_error": 1.4310193654245242e-12
+    },
+    "charge_F:3": {
+      "lattice_tail": 1.7262432135613094e-13,
+      "poisson": 8.760422135057979e-15,
+      "total_external_error": 1.8138474349118894e-13
+    },
+    "charge_minus:1": {
+      "lattice_tail": 1.2221012003492417e-11,
+      "poisson": 2.7763347313573024e-16,
+      "total_external_error": 1.2221289636965553e-11
+    },
+    "charge_minus:3": {
+      "lattice_tail": 1.4756587340570977e-12,
+      "poisson": 1.748788678753668e-15,
+      "total_external_error": 1.4774075227358516e-12
+    }
+  },
+  "seconds": 135.8268940448761,
+  "retainedEnclosure": {
+    "kind": "retained-directed-enclosure",
+    "input": "Data0002.json",
+    "scope": "Numerical enclosure payload retained exactly; current producers were not run to regenerate these intervals. Original source bindings and payload equivalence were checked during packaging."
+  }
+}

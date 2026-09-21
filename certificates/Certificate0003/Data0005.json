@@ -1,0 +1,72 @@
+{
+  "balls": {
+    "charge_F:1": {
+      "lower": "-0.0011211432080001707",
+      "upper": "-0.0011211364314239842",
+      "width": "6.776576186480476e-09"
+    },
+    "charge_F:3": {
+      "lower": "-0.0002525462910084387",
+      "upper": "-0.0002525454377220563",
+      "width": "8.532863823612798e-10"
+    },
+    "charge_minus:1": {
+      "lower": "0.00029219064265873136",
+      "upper": "0.00029219183219438943",
+      "width": "1.1895356580716825e-09"
+    },
+    "charge_minus:3": {
+      "lower": "6.598968426724314e-05",
+      "upper": "6.59898280446566e-05",
+      "width": "1.4377741346398212e-10"
+    }
+  },
+  "eta": "145",
+  "grid": {
+    "a_indices": [
+      -512,
+      128
+    ],
+    "b_indices": [
+      -192,
+      192
+    ],
+    "inner_indices": [
+      -192,
+      192
+    ],
+    "inner_step": "1/8",
+    "inner_strip": "3/4",
+    "outer_axis_strip": "1/5",
+    "outer_mixed_strip": "1/10",
+    "outer_step": "1/32"
+  },
+  "ledger": {
+    "charge_F:1": {
+      "lattice_tail": 3.38545198595054e-09,
+      "poisson": 2.8350126864469914e-12,
+      "total_external_error": 3.3882869986369875e-09
+    },
+    "charge_F:3": {
+      "lattice_tail": 4.0878544185794195e-10,
+      "poisson": 1.785749403407751e-11,
+      "total_external_error": 4.266429358920195e-10
+    },
+    "charge_minus:1": {
+      "lattice_tail": 5.947559175032978e-10,
+      "poisson": 1.1628821516146559e-14,
+      "total_external_error": 5.94767546324814e-10
+    },
+    "charge_minus:3": {
+      "lattice_tail": 7.181539172411209e-11,
+      "poisson": 7.324891766470131e-14,
+      "total_external_error": 7.18886406417768e-11
+    }
+  },
+  "seconds": 135.54577612876892,
+  "retainedEnclosure": {
+    "kind": "retained-directed-enclosure",
+    "input": "Data0005.json",
+    "scope": "Numerical enclosure payload retained exactly; current producers were not run to regenerate these intervals. Original source bindings and payload equivalence were checked during packaging."
+  }
+}

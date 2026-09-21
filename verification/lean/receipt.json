@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "recordType": "completed-lean-verification-receipt",
+  "status": "passed",
+  "run": {
+    "jobId": "rl-20260920-040926-49f9ef16",
+    "startedAtUtc": "2026-09-20T08:11:48.906Z",
+    "finishedAtUtc": "2026-09-20T09:12:14.209Z",
+    "verifierElapsedSeconds": 3625.303,
+    "runnerElapsedSeconds": 3646,
+    "exitCode": 0,
+    "wrapperStatus": "completed",
+    "sourceBundleSha256": "0a69ad52b8f56f44e0c4dfe5d8875bca7ddce4352a6718698ef2fb87827bdf07",
+    "sourceVerified": true,
+    "network": "none",
+    "containerImageId": "sha256:845b1737bd2a23ece121ea02103cf623897f8288dbdbce329d4685b05cd486bc",
+    "runnerReleaseSha256": "bbc09cfd67e6f41007d58d8afab89dcbdc299616fb94f80a7631aaa027f55266"
+  },
+  "result": {
+    "scope": "Fresh current project compilation, exact-module kernel replay and all-owned axiom audit; pinned compiler/core and package cache remain the explicit trust boundary.",
+    "selectedModuleCount": 1915,
+    "fullModuleCount": 1915,
+    "passedModuleCount": 1915,
+    "failedOrBlockedModuleCount": 0,
+    "allModulesChecked": true,
+    "statementChecks": {
+      "status": "passed",
+      "nonvacuity": [
+        "GD.N0138.N0430.d007924",
+        "GD.N0138.N0430.d007925",
+        "GD.N0138.N0430.d007926",
+        "GD.N0138.N0430.d007927"
+      ],
+      "claims": [
+        {
+          "reference": "GD.N0138.N0430.d007917",
+          "bridge": "GD.N0138.N0429.d030973"
+        },
+        {
+          "reference": "GD.N0138.N0430.d007918",
+          "bridge": "GD.N0138.N0429.d030975"
+        },
+        {
+          "reference": "GD.N0138.N0430.d007923",
+          "bridge": "GD.N0138.N0429.d030980"
+        }
+      ],
+      "negativeControls": [
+        {
+          "name": "wrong-risk-constant",
+          "status": "rejected",
+          "sourceSha256": "71d340bc09e567ce784ad332c419f9c64217a4e86ae45176c85bdac11d49a04e"
+        },
+        {
+          "name": "missing-sample-hypothesis",
+          "status": "rejected",
+          "sourceSha256": "009f61c827ff2f84f1b7c04018a2ad6c22ea59426e71ccec0cfed62378e46ef5"
+        },
+        {
+          "name": "extra-axiom",
+          "status": "rejected",
+          "sourceSha256": "1ff10c4cda985ecf4dc07a293290bc3b16576b4c2f706fa2b397a10ad925fbda"
+        }
+      ]
+    }
+  },
+  "inputs": {
+    "manifestSha256": "5c0a09373128aa30a3e8b33394d1a6d5ee41d84c1a54f40cb93061733b1e232b",
+    "compiler": {
+      "toolchain": "leanprover/lean4:v4.31.0",
+      "version": "Lean (version 4.31.0, x86_64-unknown-linux-gnu, commit 68218e876d2a38b1985b8590fff244a83c321783, Release)",
+      "leanSha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+      "leancheckerSha256": "e14365bacbe81e495558ef4c64508e97416e699f6d62900be38c995f39fcb9b8"
+    },
+    "tools": {
+      "tools/verify_lean.py": "7418533621fd0960d25326f21de8b5d2a4628749f7bffa2075ef3e540d020860",
+      "tools/AuditModule.lean": "bfd8bc8d0661956da3bac04d29d7a37e313a36357d3254937ed6207174edf396",
+      "tools/ReplayModule.lean": "0203f9bdc2259ce97043a6a21cbf69338e3aeb07acf130c17de49daf3325a715"
+    },
+    "lakeManifestSha256": "6d9400c0f78aa2b0d0fcc48fbab9d1e90621a951a92a58bb097c849a8f8d59ad",
+    "packages": [
+      {
+        "name": "mathlib",
+        "revision": "fabf563a7c95a166b8d7b6efca11c8b4dc9d911f",
+        "url": "https://github.com/leanprover-community/mathlib4.git"
+      },
+      {
+        "name": "plausible",
+        "revision": "63045536fe95024e6c18fc7b48e03f506701c5bc",
+        "url": "https://github.com/leanprover-community/plausible"
+      },
+      {
+        "name": "LeanSearchClient",
+        "revision": "c5d5b8fe6e5158def25cd28eb94e4141ad97c843",
+        "url": "https://github.com/leanprover-community/LeanSearchClient"
+      },
+      {
+        "name": "importGraph",
+        "revision": "5c7542ed018c78194f1e2b903eaf6a792b74c03d",
+        "url": "https://github.com/leanprover-community/import-graph"
+      },
+      {
+        "name": "proofwidgets",
+        "revision": "24b0d9dc081c5423f8eec7e866c441e5184f29d9",
+        "url": "https://github.com/leanprover-community/ProofWidgets4"
+      },
+      {
+        "name": "aesop",
+        "revision": "e3cb2f741431ce31bf73549fb52316a57368b06f",
+        "url": "https://github.com/leanprover-community/aesop"
+      },
+      {
+        "name": "Qq",
+        "revision": "f46324995fca5f0483b742e4eb4daec7f4ee50d2",
+        "url": "https://github.com/leanprover-community/quote4"
+      },
+      {
+        "name": "batteries",
+        "revision": "fa08db58b30eb033edcdab331bba000827f9f785",
+        "url": "https://github.com/leanprover-community/batteries"
+      },
+      {
+        "name": "Cli",
+        "revision": "92564e5770e4d09f2d86dfbf8ada1e9c715b384c",
+        "url": "https://github.com/leanprover/lean4-cli"
+      }
+    ],
+    "flags": [
+      "-j2",
+      "-DwarningAsError=true",
+      "-Dlinter.all=false"
+    ]
+  },
+  "integrity": {
+    "verifierReportSha256": "057f0984461c926eabb552985119566a18c5c6e8fdffc21c6f3c4c6e11ab30a6",
+    "retainedRunArtifacts": [
+      {
+        "name": "manifest.json",
+        "bytes": 252686,
+        "sha256": "8b80a26dea1bb2aeb5aa02285ec11ec1316b370eba46392b9948867790a8abba"
+      },
+      {
+        "name": "stdout.log",
+        "bytes": 8676717,
+        "sha256": "e03eac38d9330a4da659f9e545ebec32855d8b9232ee9dacdc4d46186e6a40e1"
+      },
+      {
+        "name": "stderr.log",
+        "bytes": 2667,
+        "sha256": "d61054fb2464bd6b33651d6e72f2c27f7d53c1cc0fb0b006f621e06146961574"
+      },
+      {
+        "name": "summary.json",
+        "bytes": 1052,
+        "sha256": "d9d6884e0e137d7976bb61e740ae1d38ac3a7dd268fb4652dba6ce2b23498ceb"
+      }
+    ]
+  },
+  "binding": {
+    "scope": "The receipt binds the Lean module manifest, verifier tools, compiler and dependency manifest used by the completed run.",
+    "sourceBundleNote": "sourceBundleSha256 identifies the complete upload used by the remote job. The current full release is separately bound by release-manifest.json because later documentation and receipt files do not alter the verified Lean inputs."
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "scope": "Current distribution identities for retained directed enclosure inputs. Producer correspondence is a transformation map, not a claim of current generation. All historical producer identities remain in the private migration record.",
+  "retainedInputs": {
+    "Data0001.json": {
+      "documentSha256": "4f09a73e630a1137bd42e16cf831f8ebafc870128b8060c31c7998857d67c98c",
+      "payloadSha256": "9a07e39c7b05c6133c218ae625f72340e9c7c78a39f6d67761509eefad5eb6d7",
+      "correspondingCurrentProducers": [
+        "Script0002.py"
+      ],
+      "mode": "retained-enclosures-not-regenerated"
+    },
+    "Data0002.json": {
+      "documentSha256": "3d279e38758af7b57eb6c46e45b6524b73fc9a6ce8542e69a43d5f74779ad170",
+      "payloadSha256": "8a190a7bcb7dc3ca49cf34b793c57c2f9cc357ecdbbaa2b1bd5f009a24c916c6",
+      "correspondingCurrentProducers": [
+        "Script0002.py"
+      ],
+      "mode": "retained-enclosures-not-regenerated"
+    },
+    "Data0003.json": {
+      "documentSha256": "8a0977146937858f1bcb4df224248df3acec689cbf69b3543837bc59f92d9ebe",
+      "payloadSha256": "030c2dcd9b2d41fd486d54c0a9bda87f0c07b93a58188186380f26afabc848db",
+      "correspondingCurrentProducers": [
+        "Script0002.py"
+      ],
+      "mode": "retained-enclosures-not-regenerated"
+    },
+    "Data0004.json": {
+      "documentSha256": "c9902b4209473118de690404db97ae3e86b2abd33c165552b4d2815c144f1eec",
+      "payloadSha256": "4f4aab1b556f16e9f543c75b804ac109bf7d9c197390cebbb54bdefc5d674b2e",
+      "correspondingCurrentProducers": [
+        "Script0002.py"
+      ],
+      "mode": "retained-enclosures-not-regenerated"
+    },
+    "Data0005.json": {
+      "documentSha256": "25ace3d58ed58277cb67899c7c442745a899835cad02c127129b7d4d086911f6",
+      "payloadSha256": "1cf7045fde3f426666cf361fbdccc8cc742b29c53dda86e9e44ff41d9228a77b",
+      "correspondingCurrentProducers": [
+        "Script0002.py"
+      ],
+      "mode": "retained-enclosures-not-regenerated"
+    },
+    "Data0007.json": {
+      "documentSha256": "e0a77c5e08d13b62aab6963b83d5cf874e72fff335dc45895b266a06cfa17785",
+      "payloadSha256": "2df7193fb4e6b6bf1eeeac8f3011a04f2de3798f80e0b37658be28671a55d66f",
+      "correspondingCurrentProducers": [
+        "Script0002.py",
+        "Script0005.py"
+      ],
+      "mode": "retained-enclosures-not-regenerated"
+    },
+    "Data0009.json": {
+      "documentSha256": "54e2f0c33cb8eb3c35550005fb566d13b47f554f7526784d554aa2a5604bfbd0",
+      "payloadSha256": "4e68571d289a604b522b21c22c3a8f2ba82e829b4de60717ecbece7e82062042",
+      "correspondingCurrentProducers": [
+        "Script0008.py",
+        "Script0007.py",
+        "Script0002.py",
+        "Script0001.py",
+        "Script0009.py"
+      ],
+      "mode": "retained-enclosures-not-regenerated"
+    }
+  },
+  "currentSources": {
+    "Script0001.py": "8ff2f24e2fe50d9f12644782ca69f762e631c6f8333fe4ce32d608abc65f24a1",
+    "Script0002.py": "5a9b9c83b96a4758118b1db840c765b871b1ac92052e26d088bb7389f22adf6d",
+    "Script0003.py": "5141ba636eee98aa0b7b97dd91144a6e8b018439dbf8c5b95b0b9cf0b5ab7d9f",
+    "Script0004.py": "ca5586adb47e5bbc4e9312c25665f9f6431d6e332a539b0de316fab947d4d8db",
+    "Script0005.py": "98b00f90df55267207375798d11cedf56089cca4fa1b9f039488d07e3eee2350",
+    "Script0006.py": "bab38e51987d27df9e86d7160217e0529dcc9a72136a3826435faa153c973fd3",
+    "Script0007.py": "dfc4ece5946d890cdc5655f64e8e962cffc2287fb476f86ae4f513b615766dbd",
+    "Script0008.py": "4afd36e72f51c341a603608335142782bc3809ff2226d48854852e5ef63b7a23",
+    "Script0009.py": "542baa0d91399b3c70e513443938d390cd8467d60a08f72328431de454427dde",
+    "Script0010.py": "416987a3b83c8b3f7a418d9de928bf650bf2586d5a6b7348d3c8b782a66bee09",
+    "Script0011.py": "04e854789d2a9cab69d92c35599a6ab752f67495bbf1e236f94a4c1fa2c5fe06",
+    "Script0012.py": "3bfdd29a29ec8dd2e5b0248c07ae85e911f470ae89caf5d8644272dc009f3914"
+  }
+}

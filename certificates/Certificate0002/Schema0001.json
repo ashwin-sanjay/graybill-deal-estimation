@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "Schema0001.json",
+  "title": "Balanced historical eight-tent two-stage exact certificate",
+  "type": "object",
+  "required": [
+    "schema",
+    "claim_level",
+    "configuration",
+    "environment",
+    "part_a_certificate",
+    "part_b_certificate",
+    "allowed_conclusions",
+    "disallowed_conclusions",
+    "source_manifest"
+  ],
+  "properties": {
+    "schema": {"const": "certificate0002-historical-eight-tent-two-stage-v1"},
+    "claim_level": {"type": "string"},
+    "configuration": {"type": "object"},
+    "environment": {"type": "object"},
+    "part_a_certificate": {
+      "type": "object",
+      "required": ["q_half_interval_cells", "macro_exact_upper_bounds", "tent_error_upper", "triple_exact_lower", "derivative_exact_lower"]
+    },
+    "part_b_certificate": {
+      "type": "object",
+      "required": ["dyadic_leaves", "leaf_count", "maximum_dyadic_depth", "minimum_leaf", "anchored_packet_floor"]
+    },
+    "allowed_conclusions": {"type": "array", "minItems": 4},
+    "disallowed_conclusions": {"type": "array", "minItems": 5},
+    "source_manifest": {
+      "type": "object",
+      "required": [
+        "Script0002.py",
+        "Script0003.py",
+        "Script0001.py",
+        "Schema0001.json"
+      ],
+      "additionalProperties": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+    }
+  },
+  "additionalProperties": false
+}

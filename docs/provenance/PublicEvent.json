@@ -1,0 +1,20 @@
+{
+  "id": "12629807297",
+  "type": "PublicEvent",
+  "actor": {
+    "id": 168618842,
+    "login": "dalematthews",
+    "display_login": "dalematthews",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/dalematthews",
+    "avatar_url": "https://avatars.githubusercontent.com/u/168618842?"
+  },
+  "repo": {
+    "id": 1311360733,
+    "name": "dalematthews/graybill-deal-inadmissibility",
+    "url": "https://api.github.com/repos/dalematthews/graybill-deal-inadmissibility"
+  },
+  "payload": {},
+  "public": true,
+  "created_at": "2026-07-24T19:18:53Z"
+}
